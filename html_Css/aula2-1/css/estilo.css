@@ -1,0 +1,64 @@
+*{
+     margin:0;
+}
+.menu{
+    list-style: none; /*Tirar os marcadores da lista*/
+    display: flex; /*deixar as coisas uma do lado da outra*/
+    justify-content: space-between; /*espaçamento entre os itens*/
+    width: 512px;
+    
+}
+.menu a{
+    color: #707070;
+    text-decoration: none; /*tirar o sublinhado*/
+    text-transform: uppercase; /*Deixar tudo maiúsculo*/
+    font-family: arial; /*mudar a fonte*/
+}
+.conteudo{
+display: flex;
+justify-content:space-between;
+} 
+.texto{
+    width: 500px;
+}
+h1{
+    text-align: center; /*alinhar o texto*/
+}
+
+header{
+    background-color: #ECEFD9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav {
+    width: 1366px;
+    margin: auto;
+    display: flex; /*Separa as coisas uma do lado da outra*/
+    justify-content: flex-end; /*alinha para o final*/
+}
+.banner{
+    background-image: url(../imagens/lobostudio-hamburg-MAjtbFMV5_k-unsplash.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+main{
+    width: 1200px;  
+    margin: auto;
+    font-family: Arial;
+    text-align: justify;
+    line-height: 2.0;
+    color: #707070;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #F1E4F2
+}
+.rodape {
+    display: flex;
+    width: 1366px;
+    margin: auto; /*centralizar conteúdo*/
+    justify-content: space-between; /*espaço entre itens iguais?*/
+    align-items: center /*alinha os itens numa linha horizontal*/
+
+}

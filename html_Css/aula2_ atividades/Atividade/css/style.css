@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 1200px; /* largura*/ 
+    margin-left: auto; /*espaçamento externo*/
+    margin-right: auto; 
+    font-family: arial; /*Qual é a font*/
+    line-height: 2.0;
+    text-align: justify; 
+}
+
+header{ 
+   background-color:  #BEDCD7;
+   padding-top: 60px; /*tamanho interno*/
+   padding-bottom: 60px;
+   text-align: center;
+   font-size: 30px;
+}
+
+footer{
+    background-color: #DB5A42;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+
+}
+
+img{
+    margin-bottom: 30px;
+}
